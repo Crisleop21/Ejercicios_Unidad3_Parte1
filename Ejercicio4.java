@@ -10,6 +10,7 @@ public class Ejercicio4{
 		//Solicitamos que igrese los valores y los leemos	
 		System.out.println("Ingrese un numero: ");
 		num = scanner.nextDouble();
+		//sacamos el cuadrado y cubo
 		cuadrado = Math.pow(num,2);
 		cubo = Math.pow(num,3);
 		System.out.println("El cuadrado del numero es: "+cuadrado);
